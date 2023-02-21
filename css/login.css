@@ -1,0 +1,50 @@
+body {font-family: sans-serif,arial;}
+
+.loginBtn {
+  background-color:#FF0000;
+  color: white;
+  padding: 14px 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  opacity: 0.8;
+}
+.container{
+  padding: 16px;
+  display:block !important;
+  width: 450px;
+  text-align: left;
+}
+input[type=text],input[type="email"],input[type=password] {
+  width: 440px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+span.psw {
+  float: right;
+  padding-top: 2px;
+  margin-top:4px;
+}
+
+center{
+	padding: 150px 0;
+}
+.bg-light{
+	background-color:#f8f9fa;
+}
+.text-center{
+	text-align:center;
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+}
